@@ -2,6 +2,7 @@ body {
   min-height: 100%vh;
   min-width: 100%vw;
   color: rgb(14, 4, 4);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 p {
@@ -13,6 +14,17 @@ p {
 h1 {
   text-align: center;
   font-size: 36px;
+  color: blueviolet;
+}
+
+h2 {
+  color:blueviolet;
+  margin: 10px;
+}
+
+h3 {
+  margin: 20px 10px;
+  padding: auto;
 }
 
 img {
@@ -40,4 +52,11 @@ ul li {
 a {
   color: blueviolet;
   text-decoration: none;
+}
+
+.video-joy {
+  /* display: block; */
+  margin: 0 auto;
+  width: 500px;
+  /* text-align: center; */
 }
