@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  padding: auto 10px;
+  margin: 10px;
+  font-family: 'Roboto', serif;
+  font-size: 16px;
+}
+
+header{
+  background-image: url('https://images.unsplash.com/photo-1573484650161-e45679d22273?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+  height: 40%;
+  background-size: cover;
+  background-position-y: center;
+  box-sizing: border-box;
+  color: rgb(8, 8, 8);
+  display: flex;
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+body{
+  height: 120vh;
+  color: black;
+}
+
+.header-content h1{
+  font-size: 3rem;
+  color:rgb(6, 175, 187);
+  background-color: white;
+  margin: 15px 580px;
+}
+
+.header-content p {
+  background-color: white;
+  margin: 10px 300px;
+}
+
+h2 {
+  padding: 4px;
+  margin: 0px;
+  height: 40px;
+}
+
+.header-button {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* CSS */
+.button-44 {
+  background: #0f99c4;
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 28.4929px;
+  padding: 0.1em 0em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  text-shadow: rgb(0 0 0 / 30%) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 10%;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}
+
+.history p {
+  margin: 5px;
+  padding: auto 10px;
+}
+
+body nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto 20px;
+  text-decoration: none;
+  padding: 10px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+nav p {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+a {
+  color: rgb(24, 153, 192);
+  margin: 80px 10px;
+  padding-left: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  /* position: fixed; */
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px!important;
+}
+
+.footer a {
+  text-decoration:none; 
+  color: black;
+}
+
+footer .social-field {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2px;
+}
